@@ -1,0 +1,17 @@
+body{   
+    background-image: url('https://img.freepik.com/free-vector/stylish-white-background-with-diagonal-lines_1017-33199.jpg?t=st=1653822920~exp=1653823520~hmac=5ba42cf60030603cb54849230f3341406b34e7fb5f60ac9bc2257d683f87b41b&w=1380');
+}
+.contact{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont{
+    margin-top: 10px;
+    border-color: black;
+}
+
+.msg{
+    height:200px;
+    width:700px;
+}

@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font: normal 18px 'Open Sans', sans-serif;
+    background: #fafafa;
+    color: #333;
+}
+
+main {
+    min-height: 100vh;
+}
+
+header {
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+    h1{
+        font: normal 100px ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align:center;
+    }
+
+    nav {
+        max-width: 800px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        nav a {
+            flex-grow: 1;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right:0;
+            height: 2px;
+            transform: scaleX(0);
+            background: #333;
+            transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+        }
+
+        nav a:hover::after{
+            transform: scaleX(1)
+        }
+
+
+
+body {
+    background-image: url('https://img.freepik.com/vecteurs-libre/conception-fond-abstrait-blanc_23-2148825582.jpg?w=2000') ;
+    
+}
+
+.button{
+    font-size: 100%;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+.loca{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    margin: 30px;
+    background-color: aliceblue;
+}
+.ach{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    margin: 30px;
+    background-color: aliceblue;
+}
+.admi{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    margin: 30px;
+    background-color: aliceblue
+}
+
+.Y{
+    text-align: center;
+    
+}
+
+.T{
+    border: 1px solid rgb(137, 137, 137);
+    border-collapse: collapse;
+    margin: 2;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    
+}
+
+.TT{
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+}
